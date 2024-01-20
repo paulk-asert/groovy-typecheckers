@@ -1,0 +1,15 @@
+plugins {
+    id 'com.github.ben-manes.versions' version '0.50.0'
+    id 'groovy'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.apache.groovy:groovy:5.0.0-alpha-5'
+    implementation 'org.apache.groovy:groovy-datetime:5.0.0-alpha-5'
+    implementation 'org.apache.groovy:groovy-test:5.0.0-alpha-5'
+    implementation 'org.apache.groovy:groovy-typecheckers:5.0.0-alpha-5'
+}
